@@ -6,11 +6,26 @@
 //
 
 import UIKit
+import AVFoundation
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
+    func applicationDidBecomeActive(_ application: UIApplication) {
+        do {
+            try AVAudioSession.sharedInstance().setCategory(AVAudioSession.Category.playback)
+        } catch {
+            print("AVAudioSessionCategoryPlayback not work")
+        }
+    }
 
+    func applicationWillResignActive(_ application: UIApplication) {
+        do {
+            try AVAudioSession.sharedInstance().setCategory(AVAudioSession.Category.soloAmbient)
+        } catch {
+            print("AVAudioSessionCategorySoloAmbient not work")
+        }
+    }
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.

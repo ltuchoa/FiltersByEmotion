@@ -7,15 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5409F2F92680D7D700E80E0E /* NovoTeste2.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 5409F2F82680D7D700E80E0E /* NovoTeste2.mlmodel */; };
 		5465120A267CBA6000702F2A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54651209267CBA6000702F2A /* AppDelegate.swift */; };
 		5465120C267CBA6000702F2A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5465120B267CBA6000702F2A /* SceneDelegate.swift */; };
 		5465120E267CBA6000702F2A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5465120D267CBA6000702F2A /* ViewController.swift */; };
 		54651211267CBA6000702F2A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5465120F267CBA6000702F2A /* Main.storyboard */; };
 		54651213267CBA6100702F2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54651212267CBA6100702F2A /* Assets.xcassets */; };
 		54651216267CBA6100702F2A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54651214267CBA6100702F2A /* LaunchScreen.storyboard */; };
+		548453632682187700CAFA55 /* ben10.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 548453622682187700CAFA55 /* ben10.mp3 */; };
+		54845367268229A100CAFA55 /* tenor.gif in Resources */ = {isa = PBXBuildFile; fileRef = 54845366268229A100CAFA55 /* tenor.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5409F2F82680D7D700E80E0E /* NovoTeste2.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = NovoTeste2.mlmodel; sourceTree = "<group>"; };
 		54651206267CBA6000702F2A /* FiltersByEmotion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FiltersByEmotion.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		54651209267CBA6000702F2A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5465120B267CBA6000702F2A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +28,8 @@
 		54651212267CBA6100702F2A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		54651215267CBA6100702F2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		54651217267CBA6100702F2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		548453622682187700CAFA55 /* ben10.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ben10.mp3; sourceTree = "<group>"; };
+		54845366268229A100CAFA55 /* tenor.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = tenor.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,9 +66,12 @@
 				5465120B267CBA6000702F2A /* SceneDelegate.swift */,
 				5465120D267CBA6000702F2A /* ViewController.swift */,
 				5465120F267CBA6000702F2A /* Main.storyboard */,
+				54845366268229A100CAFA55 /* tenor.gif */,
 				54651212267CBA6100702F2A /* Assets.xcassets */,
 				54651214267CBA6100702F2A /* LaunchScreen.storyboard */,
 				54651217267CBA6100702F2A /* Info.plist */,
+				5409F2F82680D7D700E80E0E /* NovoTeste2.mlmodel */,
+				548453622682187700CAFA55 /* ben10.mp3 */,
 			);
 			path = FiltersByEmotion;
 			sourceTree = "<group>";
@@ -125,6 +134,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				54651216267CBA6100702F2A /* LaunchScreen.storyboard in Resources */,
+				548453632682187700CAFA55 /* ben10.mp3 in Resources */,
+				54845367268229A100CAFA55 /* tenor.gif in Resources */,
 				54651213267CBA6100702F2A /* Assets.xcassets in Resources */,
 				54651211267CBA6000702F2A /* Main.storyboard in Resources */,
 			);
@@ -137,6 +148,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5409F2F92680D7D700E80E0E /* NovoTeste2.mlmodel in Sources */,
 				5465120E267CBA6000702F2A /* ViewController.swift in Sources */,
 				5465120A267CBA6000702F2A /* AppDelegate.swift in Sources */,
 				5465120C267CBA6000702F2A /* SceneDelegate.swift in Sources */,
@@ -296,7 +308,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.ltuchoa.FiltersByEmotion;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -315,7 +327,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.ltuchoa.FiltersByEmotion;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
